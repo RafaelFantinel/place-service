@@ -1,0 +1,9 @@
+version: '3.7'
+
+services:
+  app:
+    image: 'place-service'
+    build: .
+    restart: always
+    ports:
+      - "8080:8080"
